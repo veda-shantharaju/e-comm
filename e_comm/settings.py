@@ -169,3 +169,8 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'shantharajuvedashree@gmail.com'  # Replace with your email address
 EMAIL_HOST_PASSWORD = 'intf qikj hgdn idrk'
+
+import os
+TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
+TWILIO_AUTH_TOKEN = "142753f13ed7dbfc27e77b19a2d29d7c"
+TWILIO_PHONE_NUMBER = "8618676278"
